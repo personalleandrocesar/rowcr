@@ -1,28 +1,10 @@
 <script setup lang="ts">
 useHead({
-    titleTemplate: 'RowCr.me',
+    titleTemplate: 'Hydrium',
 })
 </script>
 
 <template>
-  <header>
-    <div class='logo'>
-      <!-- <LCLogoFive/> -->
-      <!-- <img alt="leandrocesar.com logo" class="logo" src="@/assets/logoBeta.svg" width="110" height="110" /> -->
-        <span class='logoAnimationSeven'>
-          <h1 class=''>RowCr.me</h1>
-        </span>
-        <span class='logoAnimationSevenTwo'>
-          <h3>LandPages & WebSites</h3>
-        </span>
-        <nav>
-          <NuxtLink to="/">INÍCIO</NuxtLink>
-          <NuxtLink to="/projetos/ativos">PROJETOS</NuxtLink>
-          <NuxtLink to="/sobre">SOBRE</NuxtLink>
-        </nav>
-    </div>
-  </header>
-
   <NuxtPage />
 </template>
 

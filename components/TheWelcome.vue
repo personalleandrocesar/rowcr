@@ -1,7 +1,7 @@
 
 <template>
   <div class="homeAnimation">
-      
+
 
       <div class='main-two'>
         <div>

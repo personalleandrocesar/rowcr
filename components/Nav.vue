@@ -1,6 +1,5 @@
 <template>
-    <div class='nav
-    '>
+    <div class='nav'>
         <div>
             <div>
                 <a @click="$router.go(-1)"><i class="fas main-l fa-arrow-left"></i></a>
@@ -15,7 +14,7 @@
   height: 35px;
   position: sticky;
   top: -1px;
-  background-color: var(--color-background);    
+  background-color: #ddddddcc;
   border-radius: 0% 0% 10% 10%;
   z-index: 10;
 }
